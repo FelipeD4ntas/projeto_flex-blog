@@ -1,0 +1,390 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: #222222;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.topo {
+    width: 100%;
+    background: rgb(18, 42, 178);
+    padding-top: 10px;
+}
+
+.topo ul {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.topo ul li {
+    margin: 0 10px 10px 10px;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.box-menu {
+    background: rgb(44, 112, 255);
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+nav .link.logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: white;
+    margin: 0 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+nav ul .link {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+nav ul .link:hover {
+    color: rgb(18, 42, 178);
+}
+
+.titulo-principal {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+.titulo {
+    font-size: 3em;
+    line-height: 1;
+}
+
+#sobre {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(44, 112, 255);
+    border-top: 2px solid rgb(44, 112, 255);
+}
+
+.artigo-sobre {
+    margin: 0 10px;
+    flex: 2 1 300px;
+}
+
+.img-sobre {
+    margin: 0 10px;
+    flex: 1 1 160px;
+}
+
+.subtitulo {
+    padding-bottom: 24px;
+    font-size: 3em;
+}
+
+.artigo-sobre p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7C7C7C;
+    padding-bottom: 20px;
+}
+
+#produtos {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#produtos .subtitulo {
+    padding: 60px 10px;
+}
+
+.box-img-produto {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.produtos-item {
+    padding: 10px;
+    flex: 1 1 175px;
+}
+
+.produtos-item.purple figcaption {
+    background: #F7F7F7;
+    border-top: 8px solid #AE81FF;
+}
+
+.produtos-item.pink figcaption {
+    background: #F7F7F7;
+    border-top: 8px solid #F9265E;
+}
+
+.produtos-item.blue figcaption {
+    background: #F7F7F7;
+    border-top: 8px solid #66D9EB;
+}
+
+.produtos-item figcaption h3 {
+    color: #A4A4A4;
+    font-size: 3em;
+    padding: 60px 20px;
+}
+
+#preco {
+    background: #F7F7F7;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+
+.card-preco {
+    border: 4px solid white;
+    flex: 1 1 260px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.desc {
+    color: #A4A4A4;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.valor {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px 0 5px 0;
+}
+
+.valor sup {
+    font-size: 1.5rem;
+}
+
+.vantagens ul {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.vantagens ul li {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #7C7C7C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vantagens ul li::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2C70FF;
+}
+
+.card-preco .botao {
+    border: 4px solid #222222;
+    background: #F7F7F7;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+}
+
+.botao button {
+    text-transform: uppercase;
+    font-size: 2.25em;
+    font-weight: bold;
+    padding: 15px;
+    background: #F7F7F7;
+    width: 100%;
+}
+
+#qualidade {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-qualidade {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.desc-qualidade {
+    color: #A4A4A4;
+    font-size: 2.25em;
+    text-align: left;
+    padding-bottom: 20px;
+    
+}
+
+.item-qualidade:nth-of-type(3n+1) .desc-qualidade::before {
+    content: '';
+    height: 35px;
+    width: 8px;
+    background: #AE81FF;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item-qualidade:nth-of-type(3n+2) .desc-qualidade::before {
+    content: '';
+    height: 30px;
+    width: 8px;
+    background: #F9265E;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item-qualidade:nth-of-type(3n+3) .desc-qualidade::before {
+    content: '';
+    height: 30px;
+    width: 8px;
+    background: #66D9EB;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.item-qualidade p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7C7C7C;
+}
+
+#contato {
+    
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px calc((100% - 960px) / 2);
+    background: #f7f7f7;
+}
+
+.contato-info p {
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 1.4;
+    color: #7C7C7C;
+}
+
+.desc-contato {
+    color: #A4A4A4;
+    font-size: 3em;
+    text-align: left;
+}
+
+.contato-info {
+    flex: 1 1 240px;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+form {
+    flex: 2 1 260px;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+}
+
+form input {
+    padding: 15px 10px;
+    font-size: 1.25em;
+    font-style: italic;
+    border: 4px solid #2c70ff;
+    flex: 3 1 260px;
+    background: transparent;
+    border-radius: 0px;
+}
+
+form button {
+    padding: 15px 10px;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background: #2c70ff;
+    flex: 1 1 260px;
+    cursor: pointer;
+}
+
+footer {
+    background: #2c70ff;
+}
+
+footer p {
+    color: #122ab2;
+    font-size: 2.25em;
+    padding: 75px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    #preco {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ouro {
+        order: -1;
+    }
+    .prata {
+        order: 0;
+    }
+    .cobre {
+        order: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    form button {
+        font-size: 1.5em;
+    }
+}
